@@ -1,5 +1,12 @@
 # Binance Smart Chain node Docker image
 
+## Build Docker images
+Check Version https://api.github.com/repos/binance-chain/bsc/releases
+
+```
+# docker build --build-arg VERSION=1.1.7 -t bsc-rpc:1 .
+```
+
 ## QuickStart
 
 ```
